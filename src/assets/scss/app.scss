@@ -3,8 +3,8 @@
 @import '../../../node_modules/normalize-libsass/normalize';
 
 body {
-  text-align: center;
   font-size: 3em;
+  margin: 60px;
 }
 
 .docker {
@@ -13,7 +13,22 @@ body {
 
 a { 
  color: #ccc;
+  text-decoration: none;
   &:hover {
     color: #ddd;
+  }
+}
+
+.inline {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    font-size: .5em;
+    display: inline-block;
+    list-style: none;
+    margin: 0 40px 0 0;
+    padding: 0;
   }
 }

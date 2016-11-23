@@ -5,21 +5,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = React.createClass({
-  getDefaultProps() {
-    return {
-      title: 'Hello Docker!'
-    };
-  },
   render() {
     return (
-      <article className="docker">
-        <h1>{this.props.title}</h1>
-      </article>
+      <ul className="inline">
+        <li><a href="/">Index</a></li>
+        <li><a href="/design">Designer</a></li>
+      <li><a href="/explore">Explorer</a></li>
+      <li><a href="/facilitation">Facilitator</a></li>
+      </ul>
     );
   }
 });
 
 ReactDOM.render(
   <App />,
-  document.getElementById('react-content')
+  document.getElementById('navigation')
 );

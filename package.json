@@ -1,10 +1,10 @@
 {
-  "name": "docker-tutorial",
+  "name": "oovg-react-portfolio",
   "version": "1.0.0",
-  "description": "Docker tutorial with a Node app.",
+  "description": "Docker container with React and Node.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ustwo/docker-tutorial.git"
+    "url": "git+ssh://git@github.com/oovg/oovg-react-port.git"
   },
   "license": "MIT",
   "private": true,
@@ -45,5 +45,11 @@
     "vinyl-source-stream": "1.1.0",
     "watchify": "3.6.0",
     "yargs": "3.30.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/oovg/oovg-react-port/issues"
+  },
+  "homepage": "https://github.com/oovg/oovg-react-port#readme",
+  "main": "gulpfile.js",
+  "author": ""
 }

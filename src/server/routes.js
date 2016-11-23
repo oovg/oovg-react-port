@@ -8,6 +8,9 @@ router.get('/*', (req, res) => {
   res.render('index', {
     title: 'App'
   });
+  res.render('test', {
+    title: 'Test'
+  });
 });
 
 export default router;

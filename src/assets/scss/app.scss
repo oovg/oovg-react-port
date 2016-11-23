@@ -10,3 +10,10 @@ body {
 .docker {
   color: #CCC;
 }
+
+a { 
+ color: #ccc;
+  &:hover {
+    color: #ddd;
+  }
+}

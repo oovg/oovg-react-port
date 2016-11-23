@@ -28,6 +28,7 @@ Run the Container
 
 ```
 docker run -p 8877:8877 -p 3001:3001 --name oovg-react -v $(pwd)/src:/usr/local/src/src --sig-proxy=false oovg-react-port npm run browsersync
+```
 
 
 Check IP
@@ -36,7 +37,3 @@ Check IP
 ```
 docker-machine ip default
 ```
-
-
-# oovg-react-port
-# oovg-react-port
